@@ -42,6 +42,7 @@
         
         foreach($registros as $fila)
         { 
+          echo 'modificacion';
          echo "<tr><td> " .$fila['name'] . 
          "</td><td>" . $fila['credit_rating'] .
          "</td><td>" . $fila['address'] .
